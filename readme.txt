@@ -2,8 +2,10 @@
 
 Contributors: jshawl
 Donate link: https://paypal.me/jesseshawl
-Tested up to: 6.1.1
+License: GPLv2 or later
+License URI: https://www.gnu.org/licenses/gpl-2.0.html
 Stable tag: v2023.02.24
+Tested up to: 6.1.1
 Requires at least: 6.0
 Requires PHP: 7.0
 
@@ -27,19 +29,3 @@ In order to block certain email addresses from checking out in a WooCommerce sho
 * = 2023.02.24 =
 
 Initial release.
-
-== License ==
-
-WC Block User is free software: you can redistribute it and/or modify
-it under the terms of the GNU General Public License as published by
-the Free Software Foundation, either version 2 of the License, or
-any later version.
-
-WC Block User is distributed in the hope that it will be useful,
-but WITHOUT ANY WARRANTY; without even the implied warranty of
-MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the
-GNU General Public License for more details.
-
-You should have received a copy of the GNU General Public License
-along with WC Block User. If not, see
-https://www.gnu.org/licenses/old-licenses/gpl-2.0.en.html.
