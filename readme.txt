@@ -26,6 +26,10 @@ In order to block certain email addresses from checking out in a WooCommerce sho
 
 == Changelog ==
 
+= 2023.03.02 =
+
+* Namespace internal functions with `wc_block_user_*`
+
 = 2023.02.24 =
 
-Initial release.
+* Initial release.
