@@ -3,14 +3,14 @@
 /**
  * Plugin Name: WC Block User
  * Description: Prevent certain users from completing a checkout in WooCommerce.
- * Version: 2023.02.24
+ * Version: v2023.03.02
  * Author: Jesse Shawl
  * Author URI: https://jesse.sh/
  * License: GPLv2 or later
  */
 
-add_action('woocommerce_after_checkout_validation', 'deny_denied_users');
-function deny_denied_users($data)
+add_action('woocommerce_after_checkout_validation', 'wc_block_user_deny_denied_users');
+function wc_block_user_deny_denied_users($data)
 {
 	$email_string = get_option('wc_block_user_list');
 	$emails = array_map('trim', explode(",", $email_string));
