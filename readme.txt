@@ -4,7 +4,7 @@ Contributors: jshawl
 Donate link: https://paypal.me/jesseshawl
 License: GPLv2 or later
 License URI: https://www.gnu.org/licenses/gpl-2.0.html
-Stable tag: v2023.02.24
+Stable tag: v2023.03.02
 Tested up to: 6.1.1
 Requires at least: 6.0
 Requires PHP: 7.0
@@ -26,6 +26,6 @@ In order to block certain email addresses from checking out in a WooCommerce sho
 
 == Changelog ==
 
-* = 2023.02.24 =
+= 2023.02.24 =
 
 Initial release.
